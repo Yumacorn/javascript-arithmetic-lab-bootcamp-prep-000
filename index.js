@@ -28,3 +28,9 @@ console.log(makeInt('2.2222'))
 console.log('2000')
 console.log(2000)
 console.log(makeInt("50.55555"))
+
+function log() {
+  console.log(greeting);
+  var greeting = 'Hello!';
+}
+log();
